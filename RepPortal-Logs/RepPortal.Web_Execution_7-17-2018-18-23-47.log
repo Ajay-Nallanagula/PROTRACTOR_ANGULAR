@@ -1,0 +1,57 @@
+[2018-07-17T18:23:52.379] [INFO] RepPortal - Entered Login Page
+[2018-07-17T18:23:52.418] [INFO] RepPortal - Started Executing Test: Login
+[2018-07-17T18:24:07.434] [INFO] RepPortal - https://nni-sit.knipper.com/#/login
+[2018-07-17T18:24:08.579] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:24:08.709] [INFO] RepPortal - PASS Entered Email
+[2018-07-17T18:24:09.834] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:24:09.960] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T18:24:11.127] [INFO] RepPortal - PASS Clicked on Sign in
+[2018-07-17T18:24:16.137] [INFO] RepPortal - Started Executing Test: Materials
+[2018-07-17T18:24:16.143] [INFO] RepPortal - Don't show again button is not present
+[2018-07-17T18:24:18.393] [INFO] RepPortal - PASS Materials Tab Clicked
+[2018-07-17T18:24:24.520] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:24:25.498] [INFO] RepPortal - PASS Entered Product ID
+[2018-07-17T18:24:26.660] [INFO] RepPortal - PASS Product Search Clicked
+[2018-07-17T18:24:32.761] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:24:32.821] [INFO] RepPortal - PASS Quantity Order Entered
+[2018-07-17T18:24:33.979] [INFO] RepPortal - PASS Add To Cart Clicked
+[2018-07-17T18:24:38.984] [INFO] RepPortal - Start Executing test : SHOPPING CART
+[2018-07-17T18:24:40.159] [INFO] RepPortal - PASS Shopping cart Icon Clicked
+[2018-07-17T18:24:46.306] [INFO] RepPortal - PASS Checkout Button Clicked
+[2018-07-17T18:24:53.336] [INFO] RepPortal - Is Edit button Present:  true
+[2018-07-17T18:24:53.336] [INFO] RepPortal - The Address is already filled , take the same address
+[2018-07-17T18:24:54.552] [INFO] RepPortal - PASS Continue Verification Button clicked
+[2018-07-17T18:24:59.584] [INFO] RepPortal - Is Place Order button Present:  true
+[2018-07-17T18:25:01.775] [INFO] RepPortal - PASS PLACED THE ORDER SUCESSFULLY.THANK YOU FOR VISITING!!!
+[2018-07-17T18:25:11.235] [INFO] RepPortal - ORDER CONFIRM LINK PRESENT: true
+[2018-07-17T18:25:11.272] [INFO] RepPortal - OrderPlacement-ORDER NUMBER GENERATED IS : MRCNV1-00HTB
+[2018-07-17T18:25:11.296] [INFO] RepPortal - ORDER HISTORY LINK PRESENT: true
+[2018-07-17T18:25:11.300] [INFO] RepPortal - START EXECUTION OF ORDER DETAIL
+[2018-07-17T18:25:11.301] [INFO] RepPortal - OrderId is generated after placing order via Order placement flow
+[2018-07-17T18:25:12.484] [INFO] RepPortal - PASS Click on Generated OrderId
+[2018-07-17T18:25:17.496] [INFO] RepPortal - Actual URL is :https://nni-sit.knipper.com/#/order/detail?orderId=81d5ded9-1ef9-499a-ac3b-ecd7ebd0f1ed
+[2018-07-17T18:25:17.532] [INFO] RepPortal - Is Edit Order Detail Button Present: true
+[2018-07-17T18:25:18.636] [INFO] RepPortal - Order Id Info is displayed
+[2018-07-17T18:25:18.663] [INFO] RepPortal - Order date is displayed
+[2018-07-17T18:25:18.664] [INFO] RepPortal - 
+[2018-07-17T18:25:18.690] [INFO] RepPortal - Order Status is Displayed
+[2018-07-17T18:25:18.724] [INFO] RepPortal - Order Type is displayed
+[2018-07-17T18:25:18.774] [INFO] RepPortal - OrderedBy Address is Displayed
+[2018-07-17T18:25:18.821] [INFO] RepPortal - Shipping Address is Displayed
+[2018-07-17T18:25:18.862] [INFO] RepPortal - Text Area for Comment is Displayed true
+[2018-07-17T18:25:18.901] [INFO] RepPortal - Product Name is Displayed Parent Brochure Guide To Child's Growth (USA15NOM00660)
+[2018-07-17T18:25:18.931] [INFO] RepPortal - Quantity Displayed  true
+[2018-07-17T18:25:18.968] [INFO] RepPortal - Cancel Order Button Is Displayed
+[2018-07-17T18:25:18.972] [INFO] RepPortal -  STARTED EXECUTING ORDER HISTORY
+[2018-07-17T18:25:18.974] [INFO] RepPortal - OrderHistory-Order Id Generated : MRCNV1-00HTB
+[2018-07-17T18:25:20.093] [INFO] RepPortal - PASS System Admin link clicked
+[2018-07-17T18:25:26.298] [INFO] RepPortal - PASS Order History Menu item clicked
+[2018-07-17T18:25:32.433] [INFO] RepPortal - PASS Filter Chevron Clicked
+[2018-07-17T18:25:38.536] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:25:38.679] [INFO] RepPortal - PASS Order Number Entered for Filter
+[2018-07-17T18:25:39.839] [INFO] RepPortal - PASS Apply Filters Button Clicked
+[2018-07-17T18:25:44.874] [INFO] RepPortal - After Filtering : 1
+[2018-07-17T18:25:44.878] [INFO] RepPortal - Started Executing Sign out !!!
+[2018-07-17T18:25:45.991] [INFO] RepPortal - PASS System Admin Button Clicked
+[2018-07-17T18:25:52.145] [INFO] RepPortal - PASS SignOut Clicked
+[2018-07-17T18:25:57.160] [INFO] RepPortal - _____________ SIGN OUT MODAL POP-UP IS NOT DISPLAYED______________

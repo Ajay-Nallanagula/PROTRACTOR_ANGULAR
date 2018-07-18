@@ -1,0 +1,218 @@
+[2018-07-17T18:12:55.044] [INFO] RepPortal - Entered Login Page
+[2018-07-17T18:12:55.094] [INFO] RepPortal - Started Executing Test: Login
+[2018-07-17T18:13:08.928] [INFO] RepPortal - https://nni-sit.knipper.com/#/login
+[2018-07-17T18:13:10.051] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:13:10.187] [INFO] RepPortal - PASS Entered Email
+[2018-07-17T18:13:11.299] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:13:11.426] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T18:13:12.591] [INFO] RepPortal - PASS Clicked on Sign in
+[2018-07-17T18:13:17.601] [INFO] RepPortal - Started Executing Test: Materials
+[2018-07-17T18:13:17.608] [INFO] RepPortal - Don't show again button is not present
+[2018-07-17T18:13:20.109] [INFO] RepPortal - PASS Materials Tab Clicked
+[2018-07-17T18:13:26.542] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:13:27.671] [INFO] RepPortal - PASS Entered Product ID
+[2018-07-17T18:13:28.835] [INFO] RepPortal - PASS Product Search Clicked
+[2018-07-17T18:13:34.946] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:13:35.011] [INFO] RepPortal - PASS Quantity Order Entered
+[2018-07-17T18:13:36.176] [INFO] RepPortal - PASS Add To Cart Clicked
+[2018-07-17T18:13:41.182] [INFO] RepPortal - Start Executing test : SHOPPING CART
+[2018-07-17T18:13:42.334] [INFO] RepPortal - PASS Shopping cart Icon Clicked
+[2018-07-17T18:13:48.489] [INFO] RepPortal - PASS Checkout Button Clicked
+[2018-07-17T18:13:56.344] [INFO] RepPortal - Is Edit button Present:  true
+[2018-07-17T18:13:56.345] [INFO] RepPortal - The Address is already filled , take the same address
+[2018-07-17T18:13:57.554] [INFO] RepPortal - PASS Continue Verification Button clicked
+[2018-07-17T18:14:02.589] [INFO] RepPortal - Is Place Order button Present:  true
+[2018-07-17T18:14:04.755] [INFO] RepPortal -  STARTED EXECUTING ORDER HISTORY
+[2018-07-17T18:14:04.759] [INFO] RepPortal - OrderHistory-Order Id Generated : 
+[2018-07-17T18:14:05.886] [INFO] RepPortal - PASS System Admin link clicked
+[2018-07-17T18:14:12.103] [INFO] RepPortal - PASS Order History Menu item clicked
+[2018-07-17T18:14:18.248] [INFO] RepPortal - PASS Filter Chevron Clicked
+[2018-07-17T18:14:24.364] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:14:24.415] [INFO] RepPortal - PASS Order Number Entered for Filter
+[2018-07-17T18:14:25.562] [INFO] RepPortal - PASS Apply Filters Button Clicked
+[2018-07-17T18:14:30.599] [INFO] RepPortal - After Filtering : 20
+[2018-07-17T18:14:30.608] [INFO] RepPortal - STARTED EXECUTING MY ADDRESS BOOK
+[2018-07-17T18:14:31.733] [INFO] RepPortal - PASS System Admin link clicked
+[2018-07-17T18:14:37.905] [INFO] RepPortal - PASS Address Book Menu item clicked
+[2018-07-17T18:14:42.925] [INFO] RepPortal - Default Address Present 6
+[2018-07-17T18:14:44.104] [INFO] RepPortal - PASS Add New Address button clicked
+[2018-07-17T18:14:49.119] [INFO] RepPortal - addrCount: 6
+[2018-07-17T18:14:49.158] [INFO] RepPortal - ADDRESS POPUP PRESENT
+[2018-07-17T18:14:50.276] [INFO] RepPortal - PASS Address Type Dropdown clicked
+[2018-07-17T18:14:56.391] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:14:56.485] [INFO] RepPortal - PASS First Name Entered
+[2018-07-17T18:14:57.604] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:14:57.769] [INFO] RepPortal - PASS Last Name Entered
+[2018-07-17T18:14:58.884] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:14:59.053] [INFO] RepPortal - PASS address1 Entered
+[2018-07-17T18:15:00.159] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:00.343] [INFO] RepPortal - PASS address2 Entered
+[2018-07-17T18:15:01.445] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:01.578] [INFO] RepPortal - PASS address3 Entered
+[2018-07-17T18:15:02.699] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:02.844] [INFO] RepPortal - PASS City Entered
+[2018-07-17T18:15:03.986] [INFO] RepPortal - PASS State Type Dropdown clicked
+[2018-07-17T18:15:10.096] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:10.202] [INFO] RepPortal - PASS Zip Entered
+[2018-07-17T18:15:11.325] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:11.450] [INFO] RepPortal - PASS Phone Entered
+[2018-07-17T18:15:12.583] [INFO] RepPortal - PASS Save the New Address Changes
+[2018-07-17T18:15:17.597] [INFO] RepPortal - Address Count more than one7
+[2018-07-17T18:15:18.728] [INFO] RepPortal - CHECKING THE DEFAULT ADDRESS THAT IS SET
+[2018-07-17T18:15:18.734] [INFO] RepPortal - _____________STARTED EXECUTING MY ADDRESS BOOK SET DEFAULT_____________
+[2018-07-17T18:15:19.908] [INFO] RepPortal - PASS Add New Address button clicked
+[2018-07-17T18:15:24.943] [INFO] RepPortal - ADDRESS POPUP PRESENT
+[2018-07-17T18:15:26.057] [INFO] RepPortal - PASS Address Type Dropdown clicked
+[2018-07-17T18:15:32.204] [INFO] RepPortal - PASS Default button clicked
+[2018-07-17T18:15:38.325] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:38.415] [INFO] RepPortal - PASS First Name Entered
+[2018-07-17T18:15:39.522] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:39.681] [INFO] RepPortal - PASS Last Name Entered
+[2018-07-17T18:15:40.789] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:40.925] [INFO] RepPortal - PASS address1 Entered
+[2018-07-17T18:15:42.050] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:42.183] [INFO] RepPortal - PASS address2 Entered
+[2018-07-17T18:15:43.298] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:43.424] [INFO] RepPortal - PASS address3 Entered
+[2018-07-17T18:15:44.548] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:44.729] [INFO] RepPortal - PASS City Entered
+[2018-07-17T18:15:45.839] [INFO] RepPortal - PASS State Type Dropdown clicked
+[2018-07-17T18:15:51.941] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:52.055] [INFO] RepPortal - PASS Zip Entered
+[2018-07-17T18:15:53.170] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:15:53.330] [INFO] RepPortal - PASS Phone Entered
+[2018-07-17T18:15:54.464] [INFO] RepPortal - PASS Save the New Address Changes
+[2018-07-17T18:15:59.485] [INFO] RepPortal - Address Count more than one8
+[2018-07-17T18:16:00.575] [INFO] RepPortal - Sucess Msg Present
+[2018-07-17T18:16:00.612] [INFO] RepPortal - CHECKING THE DEFAULT ADDRESS THAT IS SET
+[2018-07-17T18:16:01.786] [INFO] RepPortal - PASS Perform Click Operation and wait forEdit Address Button Clicked  second(s)
+[2018-07-17T18:16:01.823] [INFO] RepPortal - ADDRESS POPUP FOR EDIT PRESENT
+[2018-07-17T18:16:02.942] [INFO] RepPortal - PASS Address Type Dropdown clicked
+[2018-07-17T18:16:09.052] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:16:09.374] [INFO] RepPortal - PASS First Name Entered
+[2018-07-17T18:16:10.493] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:16:10.808] [INFO] RepPortal - PASS Last Name Entered
+[2018-07-17T18:16:11.915] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:16:12.113] [INFO] RepPortal - PASS address1 Entered
+[2018-07-17T18:16:13.227] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:16:13.439] [INFO] RepPortal - PASS address2 Entered
+[2018-07-17T18:16:14.564] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:16:14.773] [INFO] RepPortal - PASS address3 Entered
+[2018-07-17T18:16:15.896] [INFO] RepPortal - PASS Save the Edited Address
+[2018-07-17T18:16:20.937] [INFO] RepPortal - CHECKING THE FIRST ADDRESS THAT IS EDITED
+[2018-07-17T18:16:20.951] [INFO] RepPortal - Delete is possible ,Multiple Address Available  8
+[2018-07-17T18:16:22.103] [INFO] RepPortal - PASS Perform Click Operation and wait forAddress is been deleted  second(s)
+[2018-07-17T18:16:22.137] [INFO] RepPortal - Delete Popup is present
+[2018-07-17T18:16:23.280] [INFO] RepPortal - PASS Perform Click Operation and wait forPopup Del Addr is Clicked  second(s)
+[2018-07-17T18:16:35.606] [INFO] RepPortal - Addr Count after Delete 7
+[2018-07-17T18:16:35.611] [INFO] RepPortal - STARTED EXECUTING OTHER ADDRESSES
+[2018-07-17T18:16:36.762] [INFO] RepPortal - PASS System Admin link clicked
+[2018-07-17T18:16:42.876] [INFO] RepPortal - PASS Address Book Menu item clicked
+[2018-07-17T18:16:49.756] [INFO] RepPortal - PASS Other Address Tab is clicked
+[2018-07-17T18:16:54.767] [INFO] RepPortal - https://nni-sit.knipper.com/#/address/other
+[2018-07-17T18:16:55.966] [INFO] RepPortal - PASS Add New Address Button Clicked
+[2018-07-17T18:17:01.002] [INFO] RepPortal - ADDRESS POPUP PRESENT
+[2018-07-17T18:17:01.038] [INFO] RepPortal - Email Search Textbox present
+[2018-07-17T18:17:02.138] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:17:02.456] [INFO] RepPortal - PASS Email Entered
+[2018-07-17T18:17:03.533] [INFO] RepPortal - Email Search is Displayed
+[2018-07-17T18:17:04.669] [INFO] RepPortal - PASS Email Search is Clicked
+[2018-07-17T18:17:10.781] [INFO] RepPortal - PASS Address Type Dropdown clicked
+[2018-07-17T18:17:16.895] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:17:16.980] [INFO] RepPortal - PASS First Name Entered
+[2018-07-17T18:17:18.086] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:17:18.206] [INFO] RepPortal - PASS Last Name Entered
+[2018-07-17T18:17:19.323] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:17:19.438] [INFO] RepPortal - PASS address1 Entered
+[2018-07-17T18:17:20.566] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:17:20.674] [INFO] RepPortal - PASS address2 Entered
+[2018-07-17T18:17:21.771] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:17:21.903] [INFO] RepPortal - PASS address3 Entered
+[2018-07-17T18:17:23.020] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:17:23.165] [INFO] RepPortal - PASS City Entered
+[2018-07-17T18:17:24.287] [INFO] RepPortal - PASS State Type Dropdown clicked
+[2018-07-17T18:17:30.393] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:17:30.481] [INFO] RepPortal - PASS Zip Entered
+[2018-07-17T18:17:31.587] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:17:31.713] [INFO] RepPortal - PASS Phone Entered
+[2018-07-17T18:17:32.849] [INFO] RepPortal - PASS Save the New Address Changes
+[2018-07-17T18:17:40.081] [INFO] RepPortal - PASS Filter Chevron Clicked
+[2018-07-17T18:17:46.217] [INFO] RepPortal - PASS Storage Radio button clicked
+[2018-07-17T18:17:52.314] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:17:52.411] [INFO] RepPortal - PASS First Name Filter Entered
+[2018-07-17T18:17:53.514] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:17:53.671] [INFO] RepPortal - PASS Last Name Filter Entered
+[2018-07-17T18:17:54.804] [INFO] RepPortal - PASS Apply Filters Button Clicked
+[2018-07-17T18:17:59.904] [INFO] RepPortal - td Count 2
+[2018-07-17T18:18:01.091] [INFO] RepPortal - PASS Perform Click Operation and wait forEdit Clicked  second(s)
+[2018-07-17T18:18:01.125] [INFO] RepPortal - EDIT ADDRESS POPUP PRESENT
+[2018-07-17T18:18:01.153] [INFO] RepPortal - Email Search Textbox present
+[2018-07-17T18:18:02.262] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:18:02.502] [INFO] RepPortal - PASS First Name Entered
+[2018-07-17T18:18:03.597] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:18:03.835] [INFO] RepPortal - PASS Last Name Entered
+[2018-07-17T18:18:04.940] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:18:05.104] [INFO] RepPortal - PASS address1 Entered
+[2018-07-17T18:18:06.199] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:18:06.349] [INFO] RepPortal - PASS address2 Entered
+[2018-07-17T18:18:07.467] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:18:07.636] [INFO] RepPortal - PASS address3 Entered
+[2018-07-17T18:18:08.756] [INFO] RepPortal - PASS Save the Edited Address
+[2018-07-17T18:18:14.842] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:18:15.056] [INFO] RepPortal - PASS First Name Filter Entered
+[2018-07-17T18:18:16.139] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:18:16.382] [INFO] RepPortal - PASS Last Name Filter Entered
+[2018-07-17T18:18:17.479] [INFO] RepPortal - PASS Apply Filters Button Clicked
+[2018-07-17T18:18:22.555] [INFO] RepPortal - td Count 2
+[2018-07-17T18:18:23.687] [INFO] RepPortal - PASS Perform Click Operation and wait forDelete Clicked  second(s)
+[2018-07-17T18:18:23.723] [INFO] RepPortal - Delete Popup is present
+[2018-07-17T18:18:24.853] [INFO] RepPortal - PASS Perform Click Operation and wait forPopup Del Addr is Clicked  second(s)
+[2018-07-17T18:18:35.976] [INFO] RepPortal - PASS Filter Chevron Clicked
+[2018-07-17T18:18:42.103] [INFO] RepPortal - PASS Storage Radio button clicked
+[2018-07-17T18:18:48.201] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:18:48.457] [INFO] RepPortal - PASS First Name Filter Entered
+[2018-07-17T18:18:49.561] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:18:49.892] [INFO] RepPortal - PASS Last Name Filter Entered
+[2018-07-17T18:18:51.019] [INFO] RepPortal - PASS Apply Filters Button Clicked
+[2018-07-17T18:18:56.079] [INFO] RepPortal - ______TEXT FOR DELETE______ No addresses matching filter criteria.
+[2018-07-17T18:18:56.085] [INFO] RepPortal -  STARTED EXECUTING MY PROFILE
+[2018-07-17T18:18:57.204] [INFO] RepPortal - PASS System Admin link clicked
+[2018-07-17T18:19:03.337] [INFO] RepPortal - PASS My Profile Menu item clicked
+[2018-07-17T18:19:08.363] [INFO] RepPortal - FIRSTNAME IS PRESENTSystem
+[2018-07-17T18:19:08.385] [INFO] RepPortal - LASTNAME IS PRESENTAdministrator
+[2018-07-17T18:19:08.412] [INFO] RepPortal - LASTNAME IS PRESENTsamplicity_admin@knipper.com
+[2018-07-17T18:19:08.449] [INFO] RepPortal - System Administrator1 Healthcare WayLakewood NJ 08701US
+[2018-07-17T18:19:09.629] [INFO] RepPortal - PASS Clicked on Change Password Button
+[2018-07-17T18:19:15.735] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:19:15.848] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T18:19:16.963] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:19:17.073] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T18:19:18.170] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:19:18.286] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T18:19:19.423] [INFO] RepPortal - PASS Clicked on Change Password Button
+[2018-07-17T18:19:24.466] [INFO] RepPortal - Success Message is Displayed
+[2018-07-17T18:19:25.556] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:19:25.665] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T18:19:26.739] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:19:26.850] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T18:19:27.931] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:19:28.056] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T18:19:29.187] [INFO] RepPortal - PASS Clicked on Cancel Button
+[2018-07-17T18:19:34.208] [INFO] RepPortal - CURRENT PASSWORD EMPTIED
+[2018-07-17T18:19:34.229] [INFO] RepPortal - NEW PASSWORD EMPTIED
+[2018-07-17T18:19:34.251] [INFO] RepPortal - CONFIRM PASSWORD EMPTIED
+[2018-07-17T18:19:35.384] [INFO] RepPortal - PASS Clicked on Back To Profile link 
+[2018-07-17T18:19:40.396] [INFO] RepPortal - Profile Url:  https://nni-sit.knipper.com/#/profile/detail
+[2018-07-17T18:19:41.532] [INFO] RepPortal - PASS Clicked on View Address Book 
+[2018-07-17T18:19:46.581] [INFO] RepPortal - Address Book Home is Displayed  OtherAjay NallanagulaAddr1TestAddr2TestAddr3TestSecunderabad AK 12345US5173310557Edit Delete
+[2018-07-17T18:19:46.588] [INFO] RepPortal - STARTED EXECUTING SUPPORT CENTER
+[2018-07-17T18:19:47.669] [INFO] RepPortal - PASS System Admin link clicked
+[2018-07-17T18:19:53.808] [INFO] RepPortal - PASS Address Book Menu item clicked
+[2018-07-17T18:19:58.819] [INFO] RepPortal - https://nni-sit.knipper.com/#/support/detail
+[2018-07-17T18:19:58.823] [INFO] RepPortal - Interactive User Guide.ppsx exist, hence deleting it from:  D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Downloads\
+[2018-07-17T18:19:59.996] [INFO] RepPortal - PASS Clicked on Interactive Guide
+[2018-07-17T18:20:06.076] [INFO] RepPortal - Download complete
+[2018-07-17T18:20:06.078] [INFO] RepPortal - File is downloaded and saved at :  D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Downloads\
+[2018-07-17T18:20:06.176] [INFO] RepPortal - Manual button clicked
+[2018-07-17T18:20:06.495] [INFO] RepPortal - Switched to new window
+[2018-07-17T18:21:07.647] [INFO] RepPortal - Started Executing Sign out !!!

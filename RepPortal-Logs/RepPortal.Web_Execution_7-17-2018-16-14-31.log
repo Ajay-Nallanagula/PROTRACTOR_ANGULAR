@@ -1,0 +1,16 @@
+[2018-07-17T16:14:36.997] [INFO] RepPortal - Entered Login Page
+[2018-07-17T16:14:37.015] [INFO] RepPortal - Started Executing Test: Login
+[2018-07-17T16:14:52.079] [INFO] RepPortal - https://nni-sit.knipper.com/#/login
+[2018-07-17T16:14:53.220] [INFO] RepPortal - Text field clearednull
+[2018-07-17T16:14:53.384] [INFO] RepPortal - PASS Entered Email
+[2018-07-17T16:14:54.517] [INFO] RepPortal - Text field clearednull
+[2018-07-17T16:14:54.638] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T16:14:55.816] [INFO] RepPortal - PASS Clicked on Sign in
+[2018-07-17T16:15:00.829] [INFO] RepPortal - STARTED EXECUTING SUPPORT CENTER
+[2018-07-17T16:15:01.979] [INFO] RepPortal - PASS System Admin link clicked
+[2018-07-17T16:15:08.158] [INFO] RepPortal - PASS Address Book Menu item clicked
+[2018-07-17T16:15:13.170] [INFO] RepPortal - https://nni-sit.knipper.com/#/support/detail
+[2018-07-17T16:15:13.294] [INFO] RepPortal - Manual button clicked
+[2018-07-17T16:15:13.313] [INFO] RepPortal - Switched to new window
+[2018-07-17T16:15:14.337] [INFO] RepPortal - Actual Url:  https://samplicityapisitblob.blob.core.windows.net/novo2/User%20Guide.pdf?sv=2016-05-31&sr=b&sig=%2BGI30eUUZZ216nHRxk56C7Mb2kQCiopZWkx7O7pph5I%3D&st=2018-07-17T10%3A35%3A08Z&se=2018-07-17T10%3A55%3A08Z&sp=r
+[2018-07-17T16:15:14.339] [INFO] RepPortal - Decoded Url:  https://samplicityapisitblob.blob.core.windows.net/novo2/User Guide.pdf?sv=2016-05-31&sr=b&sig=+GI30eUUZZ216nHRxk56C7Mb2kQCiopZWkx7O7pph5I=&st=2018-07-17T10:35:08Z&se=2018-07-17T10:55:08Z&sp=r

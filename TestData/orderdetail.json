@@ -1,0 +1,5 @@
+{
+    "orderDetailUrl":"#/order/detail?orderId",
+    "orderStatusConst":"Submitted"
+
+}

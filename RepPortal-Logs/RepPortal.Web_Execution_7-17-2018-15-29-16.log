@@ -1,0 +1,10 @@
+[2018-07-17T15:29:21.068] [INFO] RepPortal - Entered Login Page
+[2018-07-17T15:29:21.095] [INFO] RepPortal - Started Executing Test: Login
+[2018-07-17T15:29:36.728] [INFO] RepPortal - https://nni-sit.knipper.com/#/login
+[2018-07-17T15:29:37.859] [INFO] RepPortal - Text field clearednull
+[2018-07-17T15:29:38.043] [INFO] RepPortal - PASS Entered Email
+[2018-07-17T15:29:39.180] [INFO] RepPortal - Text field clearednull
+[2018-07-17T15:29:39.316] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T15:29:40.469] [INFO] RepPortal - PASS Clicked on Sign in
+[2018-07-17T15:29:45.480] [INFO] RepPortal - STARTED EXECUTING SUPPORT CENTER
+[2018-07-17T15:29:46.611] [INFO] RepPortal - PASS System Admin link clicked

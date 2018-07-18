@@ -1,0 +1,32 @@
+[2018-07-17T19:37:31.607] [INFO] RepPortal - Entered Login Page
+[2018-07-17T19:37:31.637] [INFO] RepPortal - Started Executing Test: Login
+[2018-07-17T19:37:47.150] [INFO] RepPortal - https://nni-sit.knipper.com/#/login
+[2018-07-17T19:37:48.283] [INFO] RepPortal - Text field clearednull
+[2018-07-17T19:37:48.417] [INFO] RepPortal - PASS Entered Email
+[2018-07-17T19:37:49.540] [INFO] RepPortal - Text field clearednull
+[2018-07-17T19:37:49.666] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T19:37:50.837] [INFO] RepPortal - PASS Clicked on Sign in
+[2018-07-17T19:37:55.846] [INFO] RepPortal - STARTED EXECUTING SUPPORT CENTER
+[2018-07-17T19:37:56.983] [INFO] RepPortal - PASS System Admin link clicked
+[2018-07-17T19:38:03.171] [INFO] RepPortal - PASS Address Book Menu item clicked
+[2018-07-17T19:38:08.184] [INFO] RepPortal - https://nni-sit.knipper.com/#/support/detail
+[2018-07-17T19:38:08.193] [INFO] RepPortal - Interactive User Guide.ppsx doesn't exist
+[2018-07-17T19:38:09.374] [INFO] RepPortal - PASS Clicked on Interactive Guide
+[2018-07-17T19:38:15.483] [INFO] RepPortal - Download complete
+[2018-07-17T19:38:15.484] [INFO] RepPortal - File is downloaded and saved at :  D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Downloads\
+[2018-07-17T19:38:15.587] [INFO] RepPortal - Manual button clicked
+[2018-07-17T19:38:15.613] [INFO] RepPortal - Switched to new window
+[2018-07-17T19:38:16.670] [INFO] RepPortal - Switched to ol window
+[2018-07-17T19:38:16.687] [INFO] RepPortal - Switched to previous tab:  https://nni-sit.knipper.com/#/support/detail
+[2018-07-17T19:38:17.823] [INFO] RepPortal - Text field clearednull
+[2018-07-17T19:38:18.224] [INFO] RepPortal - PASS Comment for email is Entered
+[2018-07-17T19:38:19.360] [INFO] RepPortal - PASS Clicked on Submit to send an email
+[2018-07-17T19:38:24.398] [INFO] RepPortal - Acknowledgement is present
+[2018-07-17T19:38:24.432] [INFO] RepPortal - Mail Acknoweledge Text:  Thank you. Your e-mail has been sent to the Support Team.
+You will be contacted via email or phone for any required follow up.
+[2018-07-17T19:38:25.593] [INFO] RepPortal - PASS Clicked on Return to support center
+[2018-07-17T19:38:30.609] [INFO] RepPortal - https://nni-sit.knipper.com/#/support/detail
+[2018-07-17T19:38:30.614] [INFO] RepPortal - Started Executing Sign out !!!
+[2018-07-17T19:38:31.752] [INFO] RepPortal - PASS System Admin Button Clicked
+[2018-07-17T19:38:37.910] [INFO] RepPortal - PASS SignOut Clicked
+[2018-07-17T19:38:42.926] [INFO] RepPortal - _____________ SIGN OUT MODAL POP-UP IS NOT DISPLAYED______________

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="3" tests="4" time="88.169">
+ <testsuite name="Login to RepPortal" timestamp="2018-06-20T20:25:03" hostname="localhost" time="35.665" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Login to RepPortal" name="Login to APP" time="35.664" />
+ </testsuite>
+ <testsuite name="Materials" timestamp="2018-06-20T20:25:38" hostname="localhost" time="41.233" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Materials" name="Search Product" time="41.232">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, input[type=&quot;search&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, input[type="search"])
+    at elementArrayFinder.getWebElements.then (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Utils\actions.js:86:27
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:938:14
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous>
+    at pollCondition (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2191:7
+    at new ManagedPromise (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2190:22
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous wait>
+    at scheduleWait (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at thenableWebDriverProxy.wait (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Utils\actions.js:85:17
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+From: Task: <anonymous>
+    at BrowserACtions.waitAndFindElement (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Utils\actions.js:82:29)
+    at BrowserACtions.type (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Utils\actions.js:7:14)
+    at UserContext.<anonymous> (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Specs\Material\productsearch.e2e-spec.js:17:28)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+From: Task: Run it("Search Product") in control flow
+    at UserContext.<anonymous> (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Specs\Material\productsearch.e2e-spec.js:13:3)
+    at addSpecsToSuite (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Specs\Material\productsearch.e2e-spec.js:6:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="checkout product" timestamp="2018-06-20T20:26:20" hostname="localhost" time="11.229" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="checkout product" name="click shopping cart" time="11.227">
+   <failure type="exception" message="Failed: No element found using locator: by.buttonText(&quot;Check Out&quot;)"><![CDATA[NoSuchElementError: No element found using locator: by.buttonText("Check Out")
+    at elementArrayFinder.getWebElements.then (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Utils\actions.js:86:27
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:938:14
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous>
+    at pollCondition (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2191:7
+    at new ManagedPromise (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2190:22
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous wait>
+    at scheduleWait (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at thenableWebDriverProxy.wait (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Utils\actions.js:85:17
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+From: Task: <anonymous>
+    at BrowserACtions.waitAndFindElement (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Utils\actions.js:82:29)
+    at BrowserACtions.clickAndWait (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Utils\actions.js:47:18)
+    at UserContext.it (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Specs\Checkout\checkout.e2e-spec.js:18:20)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+From: Task: Run it("click shopping cart") in control flow
+    at UserContext.<anonymous> (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.describe (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Specs\Checkout\checkout.e2e-spec.js:13:4)
+    at addSpecsToSuite (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Specs\Checkout\checkout.e2e-spec.js:4:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Order placement" timestamp="2018-06-20T20:26:31" hostname="localhost" time="0.042" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Order placement" name="click for orderplacement" time="0.042">
+   <failure type="exception" message="Failed: No element found using locator: by.buttonText(&quot;Select from Address Book&quot;)"><![CDATA[NoSuchElementError: No element found using locator: by.buttonText("Select from Address Book")
+    at elementArrayFinder.getWebElements.then (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Utils\actions.js:86:27
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:938:14
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous>
+    at pollCondition (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2191:7
+    at new ManagedPromise (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2190:22
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous wait>
+    at scheduleWait (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at thenableWebDriverProxy.wait (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Utils\actions.js:85:17
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+From: Task: <anonymous>
+    at BrowserACtions.waitAndFindElement (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Utils\actions.js:82:29)
+    at BrowserACtions.clickAndWait (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Utils\actions.js:47:18)
+    at D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Specs\OrderPlacement\orderplacement.e2e-spec.js:18:28
+    at ManagedPromise.invokeCallback_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+From: Task: Run it("click for orderplacement") in control flow
+    at UserContext.<anonymous> (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.describe (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Specs\OrderPlacement\orderplacement.e2e-spec.js:13:4)
+    at addSpecsToSuite (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ajay_Nallanagula\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Specs\OrderPlacement\orderplacement.e2e-spec.js:4:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

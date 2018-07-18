@@ -1,0 +1,20 @@
+[2018-07-17T15:57:04.045] [INFO] RepPortal - Entered Login Page
+[2018-07-17T15:57:04.062] [INFO] RepPortal - Started Executing Test: Login
+[2018-07-17T15:57:19.760] [INFO] RepPortal - https://nni-sit.knipper.com/#/login
+[2018-07-17T15:57:20.908] [INFO] RepPortal - Text field clearednull
+[2018-07-17T15:57:21.084] [INFO] RepPortal - PASS Entered Email
+[2018-07-17T15:57:22.218] [INFO] RepPortal - Text field clearednull
+[2018-07-17T15:57:22.360] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T15:57:23.518] [INFO] RepPortal - PASS Clicked on Sign in
+[2018-07-17T15:57:28.527] [INFO] RepPortal - STARTED EXECUTING SUPPORT CENTER
+[2018-07-17T15:57:29.666] [INFO] RepPortal - PASS System Admin link clicked
+[2018-07-17T15:57:35.831] [INFO] RepPortal - PASS Address Book Menu item clicked
+[2018-07-17T15:57:40.844] [INFO] RepPortal - https://nni-sit.knipper.com/#/support/detail
+[2018-07-17T15:57:41.959] [INFO] RepPortal - Text field clearednull
+[2018-07-17T15:57:42.262] [INFO] RepPortal - PASS Comment for email is Entered
+[2018-07-17T15:57:43.399] [INFO] RepPortal - PASS Clicked on Submit to send an email
+[2018-07-17T15:57:48.437] [INFO] RepPortal - Acknowledgement is present
+[2018-07-17T15:57:48.475] [INFO] RepPortal - Mail Acknoweledge Text:  Thank you. Your e-mail has been sent to the Support Team.
+You will be contacted via email or phone for any required follow up.
+[2018-07-17T15:57:49.626] [INFO] RepPortal - PASS Clicked on Return to support center
+[2018-07-17T15:57:54.639] [INFO] RepPortal - https://nni-sit.knipper.com/#/support/detail

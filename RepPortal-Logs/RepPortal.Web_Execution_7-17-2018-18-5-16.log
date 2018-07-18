@@ -1,0 +1,21 @@
+[2018-07-17T18:05:21.598] [INFO] RepPortal - Entered Login Page
+[2018-07-17T18:05:21.620] [INFO] RepPortal - Started Executing Test: Login
+[2018-07-17T18:05:36.761] [INFO] RepPortal - https://nni-sit.knipper.com/#/login
+[2018-07-17T18:05:37.906] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:05:38.076] [INFO] RepPortal - PASS Entered Email
+[2018-07-17T18:05:39.207] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:05:39.330] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T18:05:40.491] [INFO] RepPortal - PASS Clicked on Sign in
+[2018-07-17T18:05:45.502] [INFO] RepPortal - STARTED EXECUTING SUPPORT CENTER
+[2018-07-17T18:05:46.642] [INFO] RepPortal - PASS System Admin link clicked
+[2018-07-17T18:05:52.820] [INFO] RepPortal - PASS Address Book Menu item clicked
+[2018-07-17T18:05:57.832] [INFO] RepPortal - https://nni-sit.knipper.com/#/support/detail
+[2018-07-17T18:05:57.837] [INFO] RepPortal - D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Downloads\Interactive User Guide.ppsx
+[2018-07-17T18:05:57.838] [INFO] RepPortal - Interactive User Guide.ppsx doesn't exist
+[2018-07-17T18:05:59.027] [INFO] RepPortal - PASS Clicked on Interactive Guide
+[2018-07-17T18:06:05.124] [INFO] RepPortal - Download complete
+[2018-07-17T18:06:05.125] [INFO] RepPortal - File is downloaded and saved at :  D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Downloads\
+[2018-07-17T18:06:05.129] [INFO] RepPortal - Started Executing Sign out !!!
+[2018-07-17T18:06:06.271] [INFO] RepPortal - PASS System Admin Button Clicked
+[2018-07-17T18:06:12.430] [INFO] RepPortal - PASS SignOut Clicked
+[2018-07-17T18:06:17.451] [INFO] RepPortal - _____________ SIGN OUT MODAL POP-UP IS NOT DISPLAYED______________

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<TestRun xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" id="c8408bc8-62b9-4b07-a613-4dafa7bf5f97" name="Functional Test Results" runUser="Ajay_Nallanagula">
+  <Times creation="2018-07-17 19:37:31" queuing="2018-07-17 19:37:31" start="2018-07-17 19:38:30" finish="2018-07-17 19:38:42"/>
+  <TestSettings name="Default Test Settings" id="ce1a4cfb-64fa-4d63-8815-e9984737a62c">
+    <Deployment runDeploymentRoot="CHROME_Test"/>
+  </TestSettings>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0"/>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest id="d0aa7599-27dd-44c1-9834-eaa3560408a4" name="Login to RepPortal - Login to APP - CHROME">
+      <Description>Login to APP - CHROME</Description>
+      <Execution id="6de9e74d-cd42-408e-87d6-4c8f751d3fea"/>
+      <TestMethod codeBase="protractor-jasmine" className="Login to RepPortal" name="Login to APP"/>
+    </UnitTest>
+    <UnitTest id="a87bd1f6-b012-4eaf-96fd-150d812e73cc" name="Support Center - Landing page - CHROME">
+      <Description>Landing page - CHROME</Description>
+      <Execution id="909da5e9-06f0-453a-a91d-2aea4f721e2a"/>
+      <TestMethod codeBase="protractor-jasmine" className="Support Center" name="Landing page"/>
+    </UnitTest>
+    <UnitTest id="5d01a59a-2447-402d-ab8b-ac91f3b998be" name="Support Center - Click on Interactive Guide - CHROME">
+      <Description>Click on Interactive Guide - CHROME</Description>
+      <Execution id="f96d19c7-589f-423f-886b-ac7bf19762b4"/>
+      <TestMethod codeBase="protractor-jasmine" className="Support Center" name="Click on Interactive Guide"/>
+    </UnitTest>
+    <UnitTest id="57c0fc9e-0cf0-496a-9dd6-83562ca1f449" name="Support Center - Click on User Manual - CHROME">
+      <Description>Click on User Manual - CHROME</Description>
+      <Execution id="ca6a4e91-64e5-4d86-b874-17e4d7557eed"/>
+      <TestMethod codeBase="protractor-jasmine" className="Support Center" name="Click on User Manual"/>
+    </UnitTest>
+    <UnitTest id="8a4dc3f2-c645-4a5b-a312-d95ff7df5d83" name="Support Center - Enter your comment and email - CHROME">
+      <Description>Enter your comment and email - CHROME</Description>
+      <Execution id="5085e1a7-d0fa-477a-8790-e6aaff3df526"/>
+      <TestMethod codeBase="protractor-jasmine" className="Support Center" name="Enter your comment and email"/>
+    </UnitTest>
+    <UnitTest id="5634429e-6104-4fc3-9108-eb637978258d" name="Support Center - After email return to support center - CHROME">
+      <Description>After email return to support center - CHROME</Description>
+      <Execution id="106b672f-98f6-4fb4-8c3a-78e891c5a464"/>
+      <TestMethod codeBase="protractor-jasmine" className="Support Center" name="After email return to support center"/>
+    </UnitTest>
+    <UnitTest id="216bf717-ccaf-4d1c-ad1d-bea8e61bfd98" name="Sign out - Current Session - CHROME">
+      <Description>Current Session - CHROME</Description>
+      <Execution id="7de67626-66d8-4891-902c-b01f63c4440e"/>
+      <TestMethod codeBase="protractor-jasmine" className="Sign out" name="Current Session"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList id="8c84fa94-04c1-424b-9868-57a2d4851a1d" name="Results Not in a List"/>
+    <TestList id="19431567-8539-422a-85d7-44ee4e166bda" name="All Loaded Results"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d0aa7599-27dd-44c1-9834-eaa3560408a4" executionId="6de9e74d-cd42-408e-87d6-4c8f751d3fea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="a87bd1f6-b012-4eaf-96fd-150d812e73cc" executionId="909da5e9-06f0-453a-a91d-2aea4f721e2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="5d01a59a-2447-402d-ab8b-ac91f3b998be" executionId="f96d19c7-589f-423f-886b-ac7bf19762b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="57c0fc9e-0cf0-496a-9dd6-83562ca1f449" executionId="ca6a4e91-64e5-4d86-b874-17e4d7557eed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="8a4dc3f2-c645-4a5b-a312-d95ff7df5d83" executionId="5085e1a7-d0fa-477a-8790-e6aaff3df526" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="5634429e-6104-4fc3-9108-eb637978258d" executionId="106b672f-98f6-4fb4-8c3a-78e891c5a464" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="216bf717-ccaf-4d1c-ad1d-bea8e61bfd98" executionId="7de67626-66d8-4891-902c-b01f63c4440e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult testId="d0aa7599-27dd-44c1-9834-eaa3560408a4" testName="Login to RepPortal - Login to APP - CHROME" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="EPINHYDW0601" outcome="Passed" startTime="2018-07-17 19:37:31" endTime="2018-07-17 19:37:55" duration="00:00:24.214" executionId="6de9e74d-cd42-408e-87d6-4c8f751d3fea" relativeResultsDirectory="6de9e74d-cd42-408e-87d6-4c8f751d3fea"/>
+    <UnitTestResult testId="a87bd1f6-b012-4eaf-96fd-150d812e73cc" testName="Support Center - Landing page - CHROME" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="EPINHYDW0601" outcome="Passed" startTime="2018-07-17 19:37:55" endTime="2018-07-17 19:38:08" duration="00:00:12.345" executionId="909da5e9-06f0-453a-a91d-2aea4f721e2a" relativeResultsDirectory="909da5e9-06f0-453a-a91d-2aea4f721e2a"/>
+    <UnitTestResult testId="5d01a59a-2447-402d-ab8b-ac91f3b998be" testName="Support Center - Click on Interactive Guide - CHROME" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="EPINHYDW0601" outcome="Passed" startTime="2018-07-17 19:38:08" endTime="2018-07-17 19:38:15" duration="00:00:07.297" executionId="f96d19c7-589f-423f-886b-ac7bf19762b4" relativeResultsDirectory="f96d19c7-589f-423f-886b-ac7bf19762b4"/>
+    <UnitTestResult testId="57c0fc9e-0cf0-496a-9dd6-83562ca1f449" testName="Support Center - Click on User Manual - CHROME" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="EPINHYDW0601" outcome="Passed" startTime="2018-07-17 19:38:15" endTime="2018-07-17 19:38:16" duration="00:00:01.203" executionId="ca6a4e91-64e5-4d86-b874-17e4d7557eed" relativeResultsDirectory="ca6a4e91-64e5-4d86-b874-17e4d7557eed"/>
+    <UnitTestResult testId="8a4dc3f2-c645-4a5b-a312-d95ff7df5d83" testName="Support Center - Enter your comment and email - CHROME" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="EPINHYDW0601" outcome="Passed" startTime="2018-07-17 19:38:16" endTime="2018-07-17 19:38:24" duration="00:00:07.747" executionId="5085e1a7-d0fa-477a-8790-e6aaff3df526" relativeResultsDirectory="5085e1a7-d0fa-477a-8790-e6aaff3df526"/>
+    <UnitTestResult testId="5634429e-6104-4fc3-9108-eb637978258d" testName="Support Center - After email return to support center - CHROME" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="EPINHYDW0601" outcome="Passed" startTime="2018-07-17 19:38:24" endTime="2018-07-17 19:38:30" duration="00:00:06.175" executionId="106b672f-98f6-4fb4-8c3a-78e891c5a464" relativeResultsDirectory="106b672f-98f6-4fb4-8c3a-78e891c5a464"/>
+    <UnitTestResult testId="216bf717-ccaf-4d1c-ad1d-bea8e61bfd98" testName="Sign out - Current Session - CHROME" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" computerName="EPINHYDW0601" outcome="Passed" startTime="2018-07-17 19:38:30" endTime="2018-07-17 19:38:42" duration="00:00:12.328" executionId="7de67626-66d8-4891-902c-b01f63c4440e" relativeResultsDirectory="7de67626-66d8-4891-902c-b01f63c4440e"/>
+  </Results>
+</TestRun>

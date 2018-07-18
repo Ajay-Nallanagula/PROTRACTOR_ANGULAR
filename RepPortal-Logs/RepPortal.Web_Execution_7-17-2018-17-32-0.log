@@ -1,0 +1,16 @@
+[2018-07-17T17:32:05.705] [INFO] RepPortal - Entered Login Page
+[2018-07-17T17:32:05.729] [INFO] RepPortal - Started Executing Test: Login
+[2018-07-17T17:32:20.645] [INFO] RepPortal - https://nni-sit.knipper.com/#/login
+[2018-07-17T17:32:21.791] [INFO] RepPortal - Text field clearednull
+[2018-07-17T17:32:21.923] [INFO] RepPortal - PASS Entered Email
+[2018-07-17T17:32:23.044] [INFO] RepPortal - Text field clearednull
+[2018-07-17T17:32:23.169] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T17:32:24.332] [INFO] RepPortal - PASS Clicked on Sign in
+[2018-07-17T17:32:29.341] [INFO] RepPortal - STARTED EXECUTING SUPPORT CENTER
+[2018-07-17T17:32:29.342] [INFO] RepPortal - absolutePath D:\EPAM_PROJECTS\KNIPPER\CODE\Samplicity\src\Tests\Automation\Specs\SupportCenter
+[2018-07-17T17:32:30.477] [INFO] RepPortal - PASS System Admin link clicked
+[2018-07-17T17:32:36.645] [INFO] RepPortal - PASS Address Book Menu item clicked
+[2018-07-17T17:32:41.656] [INFO] RepPortal - https://nni-sit.knipper.com/#/support/detail
+[2018-07-17T17:32:46.495] [INFO] RepPortal - Started Executing Sign out !!!
+[2018-07-17T17:32:47.666] [INFO] RepPortal - PASS System Admin Button Clicked
+[2018-07-17T17:32:53.823] [INFO] RepPortal - PASS SignOut Clicked

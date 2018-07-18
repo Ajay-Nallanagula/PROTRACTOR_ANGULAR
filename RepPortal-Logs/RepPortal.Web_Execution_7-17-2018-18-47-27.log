@@ -1,0 +1,35 @@
+[2018-07-17T18:47:32.362] [INFO] RepPortal - Entered Login Page
+[2018-07-17T18:47:32.410] [INFO] RepPortal - Started Executing Test: Login
+[2018-07-17T18:47:53.752] [INFO] RepPortal - https://nni-sit.knipper.com/#/login
+[2018-07-17T18:47:54.895] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:47:55.054] [INFO] RepPortal - PASS Entered Email
+[2018-07-17T18:47:56.192] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:47:56.308] [INFO] RepPortal - PASS Entered Password
+[2018-07-17T18:47:57.469] [INFO] RepPortal - PASS Clicked on Sign in
+[2018-07-17T18:48:02.476] [INFO] RepPortal - Started Executing Test: Materials
+[2018-07-17T18:48:02.483] [INFO] RepPortal - Don't show again button is not present
+[2018-07-17T18:48:04.793] [INFO] RepPortal - PASS Materials Tab Clicked
+[2018-07-17T18:48:10.923] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:48:11.885] [INFO] RepPortal - PASS Entered Product ID
+[2018-07-17T18:48:13.043] [INFO] RepPortal - PASS Product Search Clicked
+[2018-07-17T18:48:19.150] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:48:19.212] [INFO] RepPortal - PASS Quantity Order Entered
+[2018-07-17T18:48:20.352] [INFO] RepPortal - PASS Add To Cart Clicked
+[2018-07-17T18:48:25.358] [INFO] RepPortal - Start Executing test : SHOPPING CART
+[2018-07-17T18:48:26.514] [INFO] RepPortal - PASS Shopping cart Icon Clicked
+[2018-07-17T18:48:32.660] [INFO] RepPortal - PASS Checkout Button Clicked
+[2018-07-17T18:48:39.795] [INFO] RepPortal - Is Edit button Present:  true
+[2018-07-17T18:48:39.796] [INFO] RepPortal - The Address is already filled , take the same address
+[2018-07-17T18:48:40.977] [INFO] RepPortal - PASS Continue Verification Button clicked
+[2018-07-17T18:48:46.013] [INFO] RepPortal - Is Place Order button Present:  true
+[2018-07-17T18:48:47.121] [INFO] RepPortal -  STARTED EXECUTING ORDER HISTORY
+[2018-07-17T18:48:47.124] [INFO] RepPortal - OrderHistory-Order Id Generated : 
+[2018-07-17T18:48:48.251] [INFO] RepPortal - PASS System Admin link clicked
+[2018-07-17T18:48:54.472] [INFO] RepPortal - PASS Order History Menu item clicked
+[2018-07-17T18:49:00.598] [INFO] RepPortal - PASS Filter Chevron Clicked
+[2018-07-17T18:49:06.705] [INFO] RepPortal - Text field clearednull
+[2018-07-17T18:49:06.763] [INFO] RepPortal - PASS Order Number Entered for Filter
+[2018-07-17T18:49:07.920] [INFO] RepPortal - PASS Apply Filters Button Clicked
+[2018-07-17T18:49:12.956] [INFO] RepPortal - After Filtering : 20
+[2018-07-17T18:49:12.964] [INFO] RepPortal - STARTED EXECUTING MY ADDRESS BOOK
+[2018-07-17T18:49:14.077] [INFO] RepPortal - PASS System Admin link clicked

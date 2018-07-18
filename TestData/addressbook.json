@@ -1,0 +1,16 @@
+{
+    "firstname": "Ajay",
+    "lastname":"Nallanagula",
+    "addr1":"Addr1Test",
+    "addr2":"Addr2Test",
+    "addr3":"Addr3Test",
+    "city":"Secunderabad",
+    "zipcode":"12345",
+    "phone":"5173310557",
+    "addresscount":null,
+    "firsteditname": "AjayFirstNameEdited",
+    "lasteditname":"NallanagulaLastNameEdited",
+    "addr1eddit":"Addr1TestEdited",
+    "addr2edit":"Addr2TestEdited",
+    "addr3edit":"Addr3TestEdited"
+}
