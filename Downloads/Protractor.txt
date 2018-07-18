@@ -1,0 +1,241 @@
+https://www.3pillarglobal.com/insights/using-the-protractor-automation-tool-to-test-angularjs-applications
+
+http://ramonvictor.github.io/protractor/slides/#/1
+
+What is Protractor:
+End to end test framework for Angular Applications
+
+End to End     Vs  UnitTesting:
+e2e interact with entire application stack
+UT single isolated unit at a time
+
+Lets say for example , user permission about update
+A user have permission to update the db or not is Unit Test
+A user have permission to update the db, after updation redirecting to other url, showing a message that a resource is been updated and so on one complete flow is accomplished by e2e testing
+
+e2e focus on user experience
+UT focus on what is the functionality of the code(little blocks, little piece code)
+
+e2e runs in browser
+UT runs in console
+
+Features of Protractor w.r.t Angular
+Wait for Angular
+Get elements by bindings
+Get elements by repeaters
+
+Why Us e Protractor
+a) Test like a user, Think like a user
+b) User update data , no acknoweledgement will be fullfilled by prot
+c) Diffrent roles different data
+
+Consider an example of registration form with 10-12 fields, you need to test all the fields individually with differnt subsets of data, with good bad and wierd data
+record the output and hence confirm the feature is working fine
+
+But for developers entering these fields again and again and testing the same thing doing a repetitive task is boring, repetetive tasks are menat to be done by the software/computers , this is the place where Protractor shines, automate your tests
+
+
+Protractor is built on tob of selenium
+cmd1 : npm install -g protractor
+cmd2:  webdriver-manager update
+cmd3:  webdriver-manager start  //kickoff the server for us
+
+You need a completed feature to write a protractor tesst, cannot write in between development like unit test
+
+bower is browser package manager
+
+Where does the protractor fit in 
+UnitTest or Integration tests or User Tests
+Its in between Integration &User Tests
+Nothing is mocked (Like in Integration tests) real data tests
+Not limited to particular unit
+
+7BqLf:HEcY2slmc?0M,E 
+
+by.binding('name')
+by.model('name')
+by.css('.primary')
+by.buttonText('Save')
+by.repeater('u in users')
+by.options('r for r in roles')
+by.id
+by.linkText()
+by.name()
+by.tagName()
+by.xPath() //first second elements
+by.addLocator()//custom locator
+element(by.buttonText('Create'))
+element.all(by.binding('name'))
+
+// starts-with
+element(by.css("div[id^=test]"));
+
+// ends-with
+element(by.css("div[id$=test]"));
+
+// contains
+element(by.css("div[id*=test]"));
+
+
+https://code.tutsplus.com/tutorials/getting-started-with-end-to-end-testing-in-angular-using-protractor--cms-29318
+
+https://gist.github.com/javierarques/0c4c817d6c77b0877fda 
+http://www.webdriverjs.com/protractor-element-locators/
+https://www.w3schools.com/jquery/jquery_ref_selectors.asp
+http://www.riptutorial.com/protractor/topic/8297/explicit-waits-with-browser-wait--
+log4js :
+https://log4js-node.github.io/log4js-node/terms.html
+https://log4js-node.github.io/log4js-node/api.html
+
+https://stackoverflow.com/questions/31002274/protractor-id-of-element-dynamically-generated
+
+
+Why do we use browser-ignoresynchronization = true
+https://stackoverflow.com/questions/28808463/what-is-browser-ignoresynchronization-in-protractor
+
+
+https://valor-software.com/ng2-file-upload/
+
+
+
+https://hassantariqblog.wordpress.com/2015/11/06/installing-and-using-protractor-for-angularjs-application-in-visual-studio/
+
+"webdriver-manager update && webdriver-manager start && 
+
+https://nni-sit.knipper.com/#/login
+
+http://www.protractortest.org/#/api
+
+Best Practices
+https://www.protractortest.org/#/style-guide
+
+
+webdriver-manager update help
+webdriver-manager start help
+webdriver-manager clean help
+webdriver-manager status help
+
+Jasmine Vs Jasmine2
+https://stackoverflow.com/questions/24865357/would-jasmine-2-offer-any-benefits-over-jasmine-1-3-for-protractor
+
+Running Protractor using Suites
+https://dzone.com/articles/quick-start-end-to-end-testing-with-protractor
+https://www.protractortest.org/#/page-objects
+
+var suiteArray = {
+  login: './Specs/Login/**/*.e2e-spec.js',
+  materialStandard: './Specs/Material/**/*.e2e-spec.js',
+  checkOut: './Specs/Checkout/**/*.e2e-spec.js'
+};
+
+var specArray = [
+  './Specs/Login/login.e2e-spec.js',
+  './Specs/Material/productsearch.e2e-spec.js',
+  './Specs/Checkout/checkout.e2e-spec.js',
+  './Specs/OrderPlacement/orderplacement.e2e-spec.js',
+];
+
+protractor conf.js --suite login_materialStandard,checkout_orderplacement
+
+protractor.conf.js --suite homepage,search
+
+src\Tests\Samplicity.Tests\Samplicity.Tests.csproj
+
+https://nni-sit.knipper.com/#/product/list
+
+http://localhost:4200/ 
+eyakeY2NWq0HbskuBmOy 
+
+Corporate
+              Return to Materials      
+			  
+var elm = element(by.id('paynow-info-btn'));
+var EC = protractor.ExpectedConditions;
+browser.wait(EC.elementToBeClickable(elm), 5000);
+elm.click();
+
+How to handle Popups in protractor.
+http://chercher.tech/protractor/alerts-popups-protractor
+
+
+https://docs.microsoft.com/en-us/vsts/pipelines/archive/release/previous-version/config-and-system-variables?view=vsts
+
+
+if (document.readyState=='complete'){
+      //you can do something here
+}
+
+https://angular.io/guide/deployment
+
+Local UI Testing in the Development Phase of the CI/CD Pipeline
+https://www.mabl.com/blog/local-ui-testing-development-phase-cicd-pipeline
+
+https://www.sitepoint.com/angular-testing-introduction/
+
+http://angularfirst.com/page/2/
+
+http://www.codewrecks.com/blog/index.php/2017/08/05/running-uat-and-integration-tests-during-a-vsts-build/
+
+https://blogs.msdn.microsoft.com/devops/2017/03/26/vstest-task-dons-a-new-avatar-testing-with-unified-agents-and-phases/#FAQ
+
+https://github.com/angular/angular-cli/issues/4042
+
+How to get InnerText from div :
+https://github.com/angular/protractor/issues/1920
+
+
+Protractor get InnerHtml : 
+https://stackoverflow.com/questions/39275627/what-should-we-use-in-place-of-getinnerhtml-and-getoutterhtml-in-selenium
+
+table navigation : 
+ordSrcNumConstants.resultTable = element.all(by.css('div[class="table-overflow-container"] tbody tr'));
+ ordSrcNumConstants.resultTable.isPresent().then(function(bit){
+            if(bit){
+               // logger.info("No of rows in table are : " + ordSrcNumConstants.resultTable.length);
+                ordSrcNumConstants.resultTable.then(function(tr){
+                    logger.info("Before Filtering: "+ tr.length);
+                });
+            }
+            else{
+                logger.info("TABLE NOT PRESENT");
+            }
+        });
+		
+		 /*
+        ordSrcNumConstants.orderNumberFilter.isDisplayed().then(function (isOrderNumberFilterDisp) {
+            if (isOrderNumberFilterDisp) {
+                logger.info('XXXXXXXXXXXXXXXXXXXXXX OrderNumber TB DISPLAYED XXXXXXXXXXXXXXXXXXXXXXXXX');
+            } else {
+                logger.info('XXXXXXXXXXXXXXXXXXXXXX OrderNumber TB IS NOT DISPLAYED XXXXXXXXXXXXXXXXXXXXXXXXX');
+                ordSrcNumConstants.btnApplyFilters.isDisplayed().then(function (isBtnApplyFilters) {
+                    if (isBtnApplyFilters) {
+                        logger.info('_______________ ApplyFilters Btn DISPLAYED _______________');
+                    } else {
+                        logger.info('_______________ ApplyFilters Btn not DISPLAYED _______________');
+                    }
+                });
+            }
+        });
+*/
+
+isDisplayed Vs isPresent: https://stackoverflow.com/questions/28119084/what-is-the-difference-between-the-ispresent-and-isdisplayed-methods
+isPresent is true if element exists in a page (in DOM), but can be hidden (display: none in css) isDisplayed is true only if isPresent is true and element is visible
+isDisplayed resolves to whether the element is visible or not, but throws an exception if it is not in the DOM.
+isPresent resolves to whether it is there in the DOM or not, regardless of whether it is actually visible or not. It doesn't throw an exception.
+
+
+https://stackoverflow.com/questions/27170196/how-to-run-same-test-file-twice-in-protractor
+
+Remove node modules:  https://www.npmjs.com/package/remove-node-modules
+remove-node-modules AzureFileUploaderWeb
+
+ //   browser.getCurrentUrl().then(function (actualUrl) {
+  //     browser.logger.info(actualUrl);
+  //     if(actualUrl.indexOf(testData[0].baseURL) < 0){
+  //       browser.logger.info('FIRST ATTEMPT AT LOGIN PAGE');
+  //       browser.get(testData[0].baseURL);
+  //     }
+  //     else{
+  //       browser.logger.info('YOU ARE ALREADY AT LOGIN PAGE');
+  //     }
+  // });
